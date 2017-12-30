@@ -1,0 +1,36 @@
+{{#> layouts/cards/card cardtype="card-author" pathToRoot="./" }}
+  {{#*inline "card-structure"}}
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-6">
+      <div class="card-image__container">
+        <img class="card-image" src="/assets/images/symbols/user.png" alt="">
+      </div>
+    </div>
+    <div class="fb-grid__col-6 card-align-bottom">
+      <div class="fb-grid__row">
+        <div class="fb-grid__col-12">
+          <h1 class="name"></h1>
+          <p class="course"></p>
+        </div>
+
+      <!-- Card controls -->
+        <div class="fb-grid__row card-overline">
+          <div class="fb-grid__col-3">
+            <img class="icon" src="/assets/images/symbols/facebook.svg" alt="facebook">
+          </div>
+          <div class="fb-grid__col-3">
+            <img class="icon" src="/assets/images/symbols/instagram.svg" alt="instagram">
+          </div>
+          <div class="fb-grid__col-3">
+            <img class="icon" src="/assets/images/symbols/twitter.svg" alt="twitter">
+          </div>
+          <div class="fb-grid__col-3">
+            <img class="icon" src="/assets/images/symbols/view.svg" alt="view">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{/inline}}
+{{/layouts/cards/card}}

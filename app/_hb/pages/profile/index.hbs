@@ -1,0 +1,35 @@
+{{#> layouts/base title="Cartspire | Profile" pathToRoot="../" }} {{#*inline "content-block"}}
+<div class="fb-grid__row">
+  <div class="fb-grid__col-12 header-image__container">
+    <div class="header-image__text-wrapper">
+      <h1 class="author-title"></h1>
+      <p>profielpagina</p>
+    </div>
+  </div>
+</div>
+<div class="fb-grid__row">
+  <div class="fb-grid__col-12">
+    {{#> layouts/cards/card-author}} {{/layouts/cards/card-author}}
+  </div>
+</div>
+<div class="fb-grid__row">
+  <div class="fb-grid__col-12">
+    {{#> layouts/cards/card-text classes="card-container__underline"}} {{#*inline "card-content"}}
+    <div class="fb-grid__row">
+      <div class="fb-grid__col-12">
+        <h1 class="big_title">Bio</h1>
+        <p class="date"></p>
+      </div>
+    </div>
+    <div class="fb-grid__row">
+      <div class="fb-grid__col-12">
+        <p class="bio"></p>
+      </div>
+    </div>
+    {{/inline}} {{/layouts/cards/card-text}}
+  </div>
+</div>
+
+
+
+{{/inline}} {{#*inline "scripts-block"}} {{/inline}} {{/layouts/base}}

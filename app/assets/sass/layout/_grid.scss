@@ -1,0 +1,34 @@
+/// Make a grid container
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-container();
+
+/// Make a grid row
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-row();
+
+/// Make grid columns
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-columns();
+
+/// Adds margin of $gutter-width between each child row of container
+/// @group layout
+/// @access public
+/// @type Mixin
+@include make-fb-grid-row-margin();
+
+// Development Mode for grid
+#{grid-selector('container')}.dev {
+  @for $i from 1 through $grid-columns-amount {
+    #{grid-selector('column')}-#{$i} {
+      height: 168px;
+      background: #000;
+      border: 1px solid #ff0;
+    }
+  }
+}

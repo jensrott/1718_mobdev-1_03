@@ -1,0 +1,30 @@
+.card {
+  background-color: #fff;
+
+  @include shadow($main-shadow);
+
+  padding: 20px;
+  border-radius: $base-radius;
+  overflow: hidden;
+}
+
+.card-overline {
+  border-top: $base-border;
+}
+
+.card-align-bottom {
+  align-self: flex-end;
+}
+
+.card-image {
+  margin: auto;
+  width: 120%;
+}
+
+.card-image__container {
+  margin-left: -15%;
+  margin-top: -15%;
+  overflow-x: hidden;
+  width: 115%;
+  align-content: center;
+}

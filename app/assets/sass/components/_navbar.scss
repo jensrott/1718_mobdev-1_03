@@ -1,0 +1,71 @@
+.navbar-container {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.navbar-outer {
+  background-color: #fff;
+
+  @include shadow($main-shadow);
+
+  height: 10vh;
+  border-radius: $base-radius;
+}
+
+.navbar-inner {
+  position: absolute;
+  background-color: $main-orange;
+  z-index: 1;
+
+  @include shadow($main-shadow);
+
+  height: 8vh;
+  width: 100vw;
+  border-radius: $base-radius;
+  align-items: center;
+}
+
+#drop-menu {
+  display: none;
+  background-color: #fff;
+  border-radius: $base-radius;
+  overflow: hidden;
+  width: 100vw;
+
+  @include shadow($main-shadow);
+}
+
+.navbar-button {
+  padding: $gutter-width;
+  margin: $gutter-width;
+  display: block;
+  text-align: center;
+  border-radius: $base-radius;
+  border: 1px solid $main-orange;
+  font-family: $headings-font-family;
+}
+
+.drop-nav {
+  margin-top: 80px; /* Zo zit de dropdown niet weggestoken achter de navbar */
+  border-bottom: 2px solid #d0d0d0;
+}
+
+/* Om de icons mooi in het midden te centreren met flexbox */
+.bottom-row {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-icon {
+  width: 70%;
+  max-width: 50px;
+}
+
+#line {
+  border: 1px solid #d0d0d0;
+  margin-left: 4px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}

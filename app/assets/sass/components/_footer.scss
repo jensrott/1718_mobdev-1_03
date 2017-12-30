@@ -1,0 +1,46 @@
+.footer-container {
+  overflow: hidden;
+}
+
+.footer-inner {
+  background-color: #fff;
+
+  @include shadow($main-shadow);
+
+  border-radius: $base-radius;
+  height: 8vh;
+
+  /* Voor icons naar rechts te krijgen */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.footer-outer {
+  background-color: $main-orange;
+  border-radius: $base-radius;
+  height: 20vh;
+  width: 100%;
+
+  @include shadow($main-shadow);
+}
+
+.footer-icon {
+  margin-top: 10px;
+  width: 70%;
+  max-width: 50px;
+}
+
+.footer-outer p {
+  color: #fff;
+  font-size: 0.938em;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-icon-symbol {
+  width: 30px;
+  max-width: 50px;
+  margin-top: 20px;
+}

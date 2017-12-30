@@ -1,0 +1,63 @@
+{{!-- pages/index.hbs --}}
+
+{{#> layouts/base title="Cartspire | Home" pathToRoot="./" }}
+
+  {{#*inline "content-block"}}
+  <!-- SECTION -->
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-12 header-image__container">
+      <div class="header-image__text-wrapper">
+        <h1>Cartspire</h1>
+        <p>een GDM portfolio</p>
+      </div>
+    </div>
+  </div>
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-12">
+      {{#> layouts/cards/card-box classes="card-container__underline"}}
+        {{#*inline "card-content"}}
+          <div class="fb-grid__col-6">
+            {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+            {{/layouts/cards/card-project}}
+          </div>
+          <div class="fb-grid__col-6">
+            {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+            {{/layouts/cards/card-project}}
+          </div>
+        {{/inline}}
+      {{/layouts/cards/card-box}}
+    </div>
+  </div>
+  
+
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-12 cards__container">
+      <h1 class="between-cards-title">Van de opleiding</h1>
+    </div>
+  </div>
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-6">
+      {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+      {{/layouts/cards/card-project}}
+    </div>
+    <div class="fb-grid__col-6">
+      {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+      {{/layouts/cards/card-project}}
+    </div>
+  </div>
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-6">
+      {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+      {{/layouts/cards/card-project}}
+    </div>
+    <div class="fb-grid__col-6">
+      {{#> layouts/cards/card-project image="assets/images/placeholder.png" alt="A placeholder image"}}
+      {{/layouts/cards/card-project}}
+    </div>
+  </div>
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

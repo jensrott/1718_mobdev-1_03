@@ -1,0 +1,26 @@
+{{#> layouts/cards/card cardtype="card-project" pathToRoot="./" }}
+  {{#*inline "card-structure"}}
+
+  <div class="fb-grid__row">
+    <div class="fb-grid_-col-12">
+      <div class="card-image__container">
+        <a class="card-image-url" href="/detail-page"><img class="card-image" src="{{#if image}}{{image}}{{else}}#{{/if}}" alt="{{#if alt}}{{alt}}{{else}}Image{{/if}}"></a>
+      </div>
+    </div>
+  </div>
+  <!-- Card controls -->
+  <div class="fb-grid__row">
+    <div class="fb-grid__col-6">
+      <div class="fb-grid__row">
+        <div class="fb-grid__col-6">
+          <img class="icon" src="/assets/images/symbols/heart.svg" alt="Like">
+        </div>
+        <div class="fb-grid__col-6">
+          <p class="card-likes">0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{/inline}}
+{{/layouts/cards/card}}

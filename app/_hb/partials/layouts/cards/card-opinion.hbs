@@ -1,0 +1,20 @@
+{{#> layouts/cards/card cardtype="card-opinion" pathToRoot="./" }}
+  {{#*inline "card-structure"}}
+    <div class="fb-grid__row card-underline">
+      {{#> card-content}}
+      <!-- This area should contain headers and paragraphs, add them on the page-->
+      {{/card-content}}
+    </div>
+    <div class="fb-grid__row card-overline align-right-side">
+      <div class="fb-grid__row">
+        <div class="fb-grid__col-6 ">
+          <p class="card-text">door Stijn Stevens</p>
+          <p class="card-text">17:33</p>
+        </div>
+        <div class="fb-grid__col-6">
+          <img class="profile_picture" src="/assets/images/symbols/user.png" alt="profile_picture">
+        </div>
+      </div>
+    </div>
+  {{/inline}}
+{{/layouts/cards/card}}
