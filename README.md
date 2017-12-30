@@ -1,3 +1,19 @@
-# 1718-mobdev1-code-template
-Code Template Mobile Development I | New Media Development | Artevelde University College Ghent
-Cartspire created by Jens Rottiers and Stijn Stevens
+# Informatie
+
+Mobile Development Academiejaar 2017-18
+Groep 03: Jens Rottiers, Stijn Stevens
+
+New Media Development
+Bachelor in de grafische en digitale media
+Arteveldehogeschool
+
+#Used technologies
+
+* Handlebars
+* Npm
+* Es6
+* Sass
+* Gulp
+* Google Firebase
+    * Firebase storage
+    * Firebase Database
