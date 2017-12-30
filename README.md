@@ -28,8 +28,8 @@ Arteveldehogeschool
 
 1. Make sure you have the latest node.js version installed
 1. Clone the repository
-1. To install the dependencies: PS> npm install
-1. To run the app in the browser: PS> gulp serve
+1. Install the dependencies. Can take a while: PS> npm install
+1. Run the app in the browser: PS> gulp serve
 
 # Test accounts to log in:
 
