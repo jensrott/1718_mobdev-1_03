@@ -22,6 +22,7 @@ Arteveldehogeschool
 
 * Can't register.
 * Like system doesn't add up correctly.
+* Incorrect paths in the distribution version. 
 
 # To use the app
 
