@@ -22,7 +22,7 @@ Arteveldehogeschool
 
 * Can't register.
 * Like system doesn't add up correctly.
-* Incorrect paths in the distribution version. 
+* Incorrect paths in the distribution version. SVG's aren't visible. 
 
 # To use the app
 
@@ -42,8 +42,10 @@ Arteveldehogeschool
 * Email: jensdw@fakedomain.com
 * Password : 80085
 
+# Repository with only the dist folder:
 
+https://github.com/jensrott/1718_mobdev-1_03
 
-# Source code on Gitlab 
+# Source code on Gitlab:
 
 https://gitlab.com/jensrott/1718-mobdev1-code-template-group-3
