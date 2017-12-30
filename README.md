@@ -44,7 +44,7 @@ Arteveldehogeschool
 
 # Repository with only the dist folder:
 
-https://github.com/jensrott/1718_mobdev-1_03
+https://github.com/stijstev/1718_mobdev-1_03_dist
 
 # Source code on Gitlab:
 
