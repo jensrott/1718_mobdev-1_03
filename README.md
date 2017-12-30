@@ -7,7 +7,7 @@ New Media Development
 Bachelor in de grafische en digitale media
 Arteveldehogeschool
 
-#Used technologies
+# Used technologies
 
 * Handlebars
 * Npm
@@ -17,3 +17,7 @@ Arteveldehogeschool
 * Google Firebase
     * Firebase storage
     * Firebase Database
+
+# Voor source code
+
+https://gitlab.com/jensrott/1718-mobdev1-code-template-group-3
