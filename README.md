@@ -25,9 +25,10 @@ Arteveldehogeschool
 
 # To run the app
 
-* Clone the repository
-* To install the dependencies: npm install
-* To run the app in the browser: gulp serve
+1. Make sure you have the latest node.js version installed
+1. Clone the repository
+1. To install the dependencies: npm install
+1. To run the app in the browser: gulp serve
 
 # Test accounts to log in:
 
